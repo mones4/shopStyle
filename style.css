@@ -29,7 +29,7 @@ p{
 
 @font-face {
   font-family: "IntegralCF";
-  src: url("Fonts/Fontspring-DEMO-integralcf-bold.otf") format("opentype");
+  src: url("fonts/Fontspring-DEMO-integralcf-bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
