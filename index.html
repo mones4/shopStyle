@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <title>Frontend Bootcamp</title>
+</head>
+
+<body>
+
+
+
+
+
+  <!-- sign up container  -->
+  <div class="bg-dark text-center sticky-top">
+    <p class="signup text-light p-2 ">
+      Sign up and get 20% off to your first order.
+      <a href="#" class="text-white">Sign Up Now</a>
+    </p>
+  </div>
+
+
+  <!-- navbar  -->
+  <!-- navbar  -->
+  <nav class=" navbar navbar-expand-lg ">
+    <div class="container p-3 ">
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="img/SHOP.CO.png" alt="">
+      </a>
+
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">On sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">New Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Brands</a>
+          </li>
+        </ul>
+      </div>
+      <form  role="search">
+        <div class="search-bar align-items-center">
+          <img src="img/Frame (1).png" class="search-icon" alt="">
+          <input type="text" class="inputsearch form-control border-0 shadow-none"
+            placeholder="Search for products....">
+        </div>
+      </form>
+      <img src="img/searchIconeBold.png" class="search-icon-small p-2" alt="">
+      <img src="img/Frame 5.png" alt="shop icone ">
+    </div>
+  </nav>
+
+  <!-- end of the navbar  -->
+  <!-- find clothes  -->
+  <section class="sectionfind">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 text-start mt-lg-5 mt-4">
+          <h1 class="find-clothes ">
+            FIND CLOTHES THAT MATCHES YOUR STYLE
+          </h1>
+          <p class=" find-clothes">
+            Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality
+            and cater to your sense of style.
+          </p>
+          <button class="btn btn-dark m-3 rounded-pill px-5">Shop Now</button>
+          <img class="image200" src="img/Frame 57.png" alt="">
+        </div>
+        <div class="d-flex flex-column align-items-center d-lg-none">
+          <img src="img/Frame 57 (1).png" alt="">
+          <img class="mt-3" src="img/Frame 56.png" alt="">
+        </div>
+        <div class=" image-wrapper col-lg-6 text-center text-start">
+          <div class="img-container">
+            <img class="image-wrapper img-fluid" src="img/modle.jpg" alt="germary modle">
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end or find clothes  -->
+
+  <!-- start of brand section  -->
+  <section class="brand-bar bg-black py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-5 ">
+        <img class="brand-logo " src="img/versace.png" alt="versace">
+        <img class="brand-logo" src="img/zara.png" alt="versace">
+        <img class="brand-logo" src="img/gucci.png" alt="versace">
+        <img class="brand-logo" src="img/prada.png" alt="versace">
+        <img class="brand-logo" src="img/calvin.png" alt="versace">
+      </div>
+    </div>
+  </section>
+  <!-- end of brand section  -->
+   
+  <!-- new arrivals section  -->
+  <section class="py-5 container">
+    <h2 class="text-center fw-bold mb-4 h1class" >NEW ARRIVALS</h2>
+    <div class="row my-5">
+      <!-- imgage card 1  -->
+      <div class="col-6 col-lg-3 ">
+        <div class="ratio ratio-1x1 rounded-4 mb-4">
+          <img src="img/new1.png" alt="">
+        </div>
+        <h6 class="mb-2">T-shirt with Tape Details</h6>
+        <div class="small text-warning mb-1">★ ★ ★ ★ ★ <span class="text-muted">4.5/5</span></div>
+        <span class="fw-bold">$120</span>
+      </div>
+      <!-- imgage card 2  -->
+      <div class="col-6 col-lg-3 ">
+        <div class="ratio ratio-1x1 rounded-4 mb-4">
+          <img src="img/new2.png" alt="">
+        </div>
+        <h6 class="mb-2">Skinny Fin Jeans</h6>
+        <div class="small text-warning mb-1">★ ★ ★ ☆ <span class="text-muted">3.5/5</span></div>
+        <span class="fw-bold">$240 </span><span class="text-muted text-decoration-line-through">$260</span><span
+          class="m-2 rounded-4 p-1 discount-badge">-20%</span>
+      </div>
+      <!-- imgage card 3  -->
+      <div class="col-6 col-lg-3">
+        <div class="ratio ratio-1x1 rounded-4 mb-4">
+          <img src="img/new3.png" alt="">
+        </div>
+        <h6 class="mb-2">Checlered Shirt</h6>
+        <div class="small text-warning mb-1">★ ★ ★ ★ ☆ <span class="text-muted">4.5/5</span></div>
+        <span class="fw-bold">$180</span>
+      </div>
+      <!-- imgage card 4  -->
+      <div class="col-6 col-lg-3">
+        <div class="ratio ratio-1x1 rounded-4 mb-4">
+          <img src="img/new4.png" alt="">
+        </div>
+        <h6 class="mb-2">T-shirt with Tape Details</h6>
+        <div class="small text-warning mb-1">★ ★ ★ ★ ★ <span class="text-muted">4.5/5</span></div>
+        <span class="fw-bold">$130 </span><span class="text-muted text-decoration-line-through">$160</span><span
+          class="rounded-4 mx-2 p-1 discount-badge">-30%</span>
+      </div>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-outline-dark px-5 rounded-4">view all</button>
+    </div>
+  </section>
+
+
+  <section class="py-5 container ">
+    <h2 class="text-center fw-bold mb-4 h1class">TOP SELLING</h2>
+    <div class="row g-4  " style="margin: 0;">
+      <!-- imgage card 1  -->
+      <div class="col-6 col-lg-3">
+        <div class="ratio ratio-1x1 rounded-4 mb-4">
+          <img src="img/top1.png" alt="top1">
+        </div>
+        <h6 class="mb-2">Vertical Striped Shirt</h6>
+        <div class="small text-warning mb-1">★ ★ ★ ★ ★ <span class="text-muted">5/5</span></div>
+        <span class="fw-bold">$212</span><span class="text-muted text-decoration-line-through">$232</span><span
+          class="m-2 rounded-4 p-1 discount-badge">-20%</span>
+      </div>
+      <!-- imgage card 2  -->
+      <div class="col-6 col-lg-3">
+        <div class="ratio ratio-1x1 rounded-4 mb-4">
+          <img src="img/top2.png" alt="top2">
+        </div>
+        <h6 class="mb-2">Skinny Fin Jeans</h6>
+        <div class="small text-warning mb-1">★ ★ ★ ★ <span class="text-muted">3.5/5</span></div>
+        <span class="fw-bold">$145 </span>
+      </div>
+      <!-- imgage card 3  -->
+      <div class="col-6 col-lg-3">
+        <div class="ratio ratio-1x1 rounded-4 mb-4 ">
+          <img src="img/top3.png" alt="top3">
+        </div>
+        <h6 class="mb-2">Checlered Shirt</h6>
+        <div class="small text-warning mb-1">★ ★ ★ <span class="text-muted">4.5/5</span></div>
+        <span class="fw-bold">$80</span>
+      </div>
+      <!-- imgage card 4  -->
+      <div class="col-6 col-lg-3">
+        <div class="ratio ratio-1x1 rounded-4 mb-4">
+          <img src="img/top4.png" alt="top4">
+        </div>
+        <h6 class="mb-2">T-shirt with Tape Details</h6>
+        <div class="small text-warning mb-1">★ ★ ★ ★ ★ <span class="text-muted">4.5/5</span></div>
+        <span class="fw-bold">$210 </span>
+        <span class="rounded-4 p-1 discount-badge">-20%</span>
+
+      </div>
+      <div class="text-center ">
+        <button type="button" class="btn btn-outline-dark px-5 rounded-4">view all</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="browseBy container rounded-4">
+      <h2 class="p-5 text-center fw-bold mb-4" style="font-family:'IntegralCF',sans-serif;">BROWSE BT DRESS STYLE</h2>
+      <div class="row  justify-content-center g-4 pb-5 m-lg-5">
+        <!-- first image  -->
+        <div class="col-12 col-lg-5">
+          <div class="rounded-4 mb-4 text-start imgLarge">
+            <img class="rounded-4" src="img/casual.png" alt="">
+          </div>
+        </div>
+        <!-- second image  -->
+        <div class="col-12 col-lg-7">
+          <div class=" rounded-4 mb-4 text-start imgLarge">
+            <img class="rounded-4" src="img/formal.png" alt="">
+          </div>
+        </div>
+        <!-- third image  -->
+        <div class="col-12 col-lg-7">
+          <div class=" rounded-4 mb-4 text-end imgLarge">
+            <img class="rounded-4" src="img/party.png" alt="">
+          </div>
+        </div>
+        <!-- forth image  -->
+        <div class="col-12 col-lg-5">
+          <div class=" rounded-4 mb-4 text-end imgLarge">
+            <img class="rounded-4" src="img/gym.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- reviews section  -->
+  <section class="section-reviews m-5 ">
+    <div style="display:flex; justify-content:space-between; align-items:center;" class="container">
+      <h2>Our Happy Customers</h2>
+      <div style="display:flex;gap:10px;">
+        <div class="swiper-button-prev text-dark" style="position: relative;"></div>
+        <div class="swiper-button-next ms-5 text-dark" style="position: relative;"></div>
+      </div>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper ">
+
+        <!-- card 1 -->
+        <div class="swiper-slide">
+          <div class="card p-4">
+            <div class="stars text-warning">★ ★ ★ ★ ★</div>
+            <h5>Sarah M. <img src="img/star.png" alt="" /></h5>
+            <p>"I'm blown away by the quality and style of the clothes I received from Shop.co."</p>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="swiper-slide">
+          <div class="card p-4">
+            <div class="stars text-warning">★ ★ ★ ★ ★</div>
+            <h5>Alex K. <img src="img/star.png" alt="" /></h5>
+            <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co."
+            </p>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="swiper-slide">
+          <div class="card p-4">
+            <div class="stars text-warning">★ ★ ★ ★ ★</div>
+            <h5>James L. <img src="img/star.png" alt="" /></h5>
+            <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have found Shop.co."
+            </p>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="swiper-slide">
+          <div class="card p-4">
+            <div class="stars text-warning">★ ★ ★ ★ ★</div>
+            <h5>Mona S. <img src="img/star.png" alt="" /></h5>
+            <p>"Great prices and fast shipping — I’m so happy with my purchases every time!"</p>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="swiper-slide">
+          <div class="card p-4">
+            <div class="stars text-warning">★ ★ ★ ★ ★</div>
+            <h5>Diego R. <img src="img/star.png" alt="" /></h5>
+            <p>"Quality is consistent every time. I’ll definitely keep shopping here."</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end of the revies section  -->
+
+
+  <!-- email section  -->
+  <section class=" py-5">
+    <div class="container rounded-4 bg-dark text-white px-4 px-md-5 py-5"
+      style="position: relative; top: 150px; margin-top: -150px;">
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <h1 class=" mb-0 text-uppercase">
+            Stay up to date about Our latest offers
+          </h1>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="position-relative mb-3 mx-md-auto" style="max-width: 420px;">
+              <img src="img/emaillogo.png" alt="" class="position-absolute top-50 start-0 translate-middle-y ms-3"
+                style="width:18px; height:18px;">
+              <input type="email" class="form-control form-control-lg rounded-pill ps-5 bg-body-secondary border-0 "
+                placeholder="Enter your email address" required>
+            </div>
+            <div class="d-grid mx-md-auto" style="max-width: 420px;">
+              <button type="submit" class="btn btn-light btn-lg rounded-pill text-dark fw-medium">
+                Subscribe to Newsletter
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end of email section  -->
+  <!-- position: relative; bottom: 145px; padding-top: 150px; z-index: -1;  -->
+  <footer py-5 style="background-color: #f0f0f0;padding-bottom: 31px;padding-top: 140px; ">
+    <div class="container mt-5">
+      <div class="row g-4">
+        <div class="col-12 col-lg-3">
+          <img src="img/SHOP.CO.png" alt="logo shop co" class="m-4">
+          <p class="text-muted small mb-3">
+            We have clothes that suits your style and which you’re proud to wear. From women to men.
+          </p>
+          <img src="img/Social.png" alt="">
+        </div>
+        <div class="col-6 col-lg-2 ps-4 ">
+          <div class=" fw-semibold mb-3 ">COMPANY</div>
+          <ul class="list-unstyled text-muted small">
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">About</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Features</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Works</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <div class=" fw-semibold mb-3">HELP</div>
+          <ul class="list-unstyled text-muted small">
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Customer Support</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Delivery Details</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Terms & Conditions</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3 ps-4 ">
+          <div class=" fw-semibold mb-3 ">FAQ</div>
+          <ul class="list-unstyled text-muted small">
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Account</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Manage Deliveries</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Orders</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Payments</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 align-items-end ">
+          <div class=" fw-semibold mb-3">RESOURCES</div>
+          <ul class="list-unstyled text-muted small">
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Free eBooks</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Development Turorial</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">How to - Blog</a></li>
+            <li><a class="link-body-emphasis text-decoration-none text-muted" href="#">Youtube Playlistß</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <hr class="container" style=" height: 1px; background-color: black; border: none;" class="mx-auto">
+      </div>
+      <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <p class="text-muted small m-0">Shop.co © 2000–2023, All Rights Reserved</p>
+
+
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/visa.png" alt="Visa">
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: { slidesPerView: 2 },
+        992: { slidesPerView: 3 },
+      }
+    });
+  </script>
+
+</body>
+
+</html>

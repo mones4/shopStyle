@@ -1,0 +1,259 @@
+body{
+  background-color:#ffffff;
+  margin: 0;
+  padding: 0;
+}
+.sectionfind{
+  background-color: #f0f0f0;
+}
+p{
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("Satoshi-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("Satoshi-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "IntegralCF";
+  src: url("fonts/Fontspring-DEMO-integralcf-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.h1class{
+  font-family:'IntegralCF',sans-serif ;
+  font-size: 48px;
+}
+
+p.signup{
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+p.signup a{
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.search-bar{
+  padding: 12px 16px;
+  gap: 12px;
+  height: 48px;
+  width: 577px;
+  display: flex;
+   text-align: center;
+}
+.search-bar.emailw{
+  width: 415px; /*extra size for the hidden image*/
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.inputsearch{
+  background-color: #f0f0f0;
+  border-radius: 62px;
+  height: 48px;
+  padding-left: 48px;
+  
+}
+.search-bar img{
+  position: relative;
+  left: 46px;
+}
+.search-icon-small{
+  display: none;
+}
+
+.brand-logo{
+  max-height: 40px;
+  width: auto;
+  filter: brightness(0) invert(1); /* keeps logos white on dark bg if needed */
+  transition: transform 0.3s ease;
+}
+
+
+/*Find Clothes section*/
+h1.find-clothes{
+  font-size: 64px;
+  font-family: IntegralCF ;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom:20px ;
+  margin-top: 20px;
+
+}
+p.find-clothes{
+  font-size: 16px;
+  font-family: Satoshi ;
+  font-weight: 400;
+  margin-bottom:20px ;
+  line-height: 24px;
+  opacity: .6;
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The cropping container */
+.img-container {
+  height: 663px; /* adjust to match your Figma height */
+  width: 100%;
+  overflow: hidden; /* hides the bottom part */
+}
+
+/* Image styling */
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crops instead of stretches */
+  object-position: top; /* keeps the top visible, crops from bottom */
+}
+
+.shopnow{
+  width: 210px;
+  height: 52px;
+  margin: 16px 54px 16px 54px;
+}
+.discount-badge {
+  background-color: rgba(255, 59, 48, 0.3); /* red with 30% opacity */
+  color: red;
+  font-size: 0.8rem;         
+}
+
+.browseBy{
+  background-color: #f0f0f0;
+}
+.cartitle{
+  color: #000;
+}
+/********************************/
+/* crop the image from right and move it to right  */
+.imgLarge {
+  /* width: 100%;
+  height: 100%; */
+  overflow: hidden;
+}
+.imgLarge img{
+  object-fit: cover;
+  width: 100%;
+  height: 240px;
+  object-position: center left;
+
+}
+
+.clip-rounded {
+  overflow: hidden;
+}
+.emailinput{
+  width: 350px;
+  height: 48px;
+}
+
+.reviews-title{
+  font-family: "IntegralCF", sans-serif;
+  font-weight: 700;
+  letter-spacing:.5px;
+  line-height:1;
+  font-size: clamp(24px, 4.2vw, 40px);
+}
+
+.reviews-track{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 1rem;
+  padding-bottom: .5rem; /* room for shadow fade if added */
+}
+
+.review-card{
+  scroll-snap-align: start;
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,.1);
+}
+
+
+
+/* tablet: show 2 */
+
+
+@media (max-width: 576px) {
+.h1class{
+  font-size: 32px;
+}
+  .reviews-track{
+    grid-auto-columns: calc((100% - 1.25rem) / 2);
+  }
+    .thenavbar{
+    width: 900px;
+  }
+
+  p.signup {
+    font-size: 12px;
+  }
+  p.signup a{
+    font-size: 12px;
+  }
+ .search-bar{
+  display: none;
+ }
+ .search-bar.search-bar.emailw{
+  display: block;
+  
+ }
+ .search-icon-small{
+  display: inline;
+}
+.image200{
+  display: none;
+}
+h1.find-clothes{
+  font-size: 36px;
+  margin:0px 0px 20px ;
+  line-height: 34px;
+  text-align: center;
+}
+.brand-logo{
+ max-height: 20px;
+}
+.brand-bar .brands {
+    justify-content: center; 
+    flex-wrap: wrap;         
+    gap: 1rem;              
+  }
+  .img-container {
+  height: 527px; 
+}
+.browseBy{
+  width: 340px;
+}
+  .imgLarge img{
+ height: 150px;
+ object-position: center top;
+ padding-right: 20px;
+}
+.imgLarge{
+  width: 340px;
+}
+}
